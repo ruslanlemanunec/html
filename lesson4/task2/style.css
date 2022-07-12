@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+
+.target1{
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+
+}
+
+.target1 > .menu{
+    margin: 0 15px;
+}
+.war_block{
+    margin: 0 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    
+}
+.war_img{
+    margin: 0 5px;
+}
+.target2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: rgb(124, 26, 26);
+}
+
+.target3{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.target3 > .menu{
+    margin: 0 5px;
+    font-size: 15px;
+}
+.war_title{
+    margin: 0 5px;
+    
+        
+      }
+
+.target1 > .menu > a, .target3 > .menu> a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.target3 > .menu > a:hover, .target3 > .menu > a:hover{
+    color: rgb(124, 26, 26);
+}
+
+.red{
+    color: rgb(124, 26, 26);
+}
+
+.all_section > a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo > .mini_logo{
+    font-size: 15px;
+    margin: 0;
+}
+
+.language{
+    display: flex;
+}
+
+.language > div, .language .war_title> div > a{
+    color: white;
+    text-decoration: none;
+    margin: 0 1px;
+    font-weight: bold;
+}
+
+.language > div > a:hover, .all_section > a:hover{
+    color: silver;
+}
+
+body {margin: 0; padding: 0;}
+.war_block {display: flex; font-family: 'Fira Sans';}	
+.war_item {padding-right: 8px; border-right: #cfcfcf 1px solid; padding-left: 8px;}
+.war_num {font-size: 20px; font-weight: bold;}
+.war_num span {font-size: 14px; color: #900022; padding-left: 3px;}
+.war_block .war_item:first-child {padding-left: 0; border: none;}
+.war_block .war_item:nth-child(2) {margin-right: 0; }
+.war_block .war_item:last-child {border: none;}
+.war_desc {font-size: 9px; text-transform: uppercase; padding-bottom: 8px;}
+.war_img img {vertical-align: bottom;}	
+.war_block .war_item:nth-child(n+3) .war_img {width: 90px; overflow: hidden;}
+.war_block .war_item:nth-child(n+3) {max-width: 90px; box-sizing: content-box;}
+.war_block .war_item:nth-child(3) .war_img {width: 100px; overflow: hidden;}
+.war_block .war_item:nth-child(3) {max-width: 100px; box-sizing: content-box;}
+.war_block .war_item:nth-child(2) {padding-left: 0;  padding-right: 20px;}	
+.war_section {background: #eeeff0; padding: 10px 0;}	
+.war_section .layout-main {margin-left: auto; margin-right: auto; max-width: 1296px;}	
+.war_title {font-family: 'Fira Sans'; font-size: 15px; line-height: 1.2em; font-weight: 400; text-transform: uppercase; color: #900022; margin-top: 6px; margin-bottom: 5px;}	
+@media screen and (max-width: 1296px) {
+.war_block {max-width: 100%; display: block; overflow-x: scroll; overflow-y: hidden; white-space: nowrap; padding-left: 12px; padding-top: 0;}
+.war_item {display: inline-block; white-space: normal; overflow: hidden; vertical-align: top; min-height: 84px;}
+.war_title {padding-left: 10px; padding-right: 10px;}
+                        }
